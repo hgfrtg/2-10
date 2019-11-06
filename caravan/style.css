@@ -194,81 +194,74 @@ footer {
 .footer-text {
 	color: #fff;
 }
-
 /* すべての画面サイズで適用される設定 */
-.social i {
-	color:black;
+.social i {   
+  color:black;
 }
-
+ 
 /* タブレット横置きサイズ（1024px）以下の際に適用される設定 */
-@media screen and (max-width:1024px) {
-	.social i {
-	color: green;
-	}
+@media screen and (max-width:1024px) {  
+  .social i {    
+    color: green;
+    }
 }
-
+ 
 /* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
-@media screen and (max-width:768px) {
-  .social i {
+@media screen and (max-width:768px) {  
+  .social i {    
     color: red;
     }
 }
-
-/* スマートフォンサイズ（425px）以下の際に適用される設定 */
-@media screen and (max-width:425px) {
 header {
-	width:100% ;
+    width: 100%;
 }
-.nav-list{
-	width:100% ;
+.nav-list {
+    width: 100%;
 }
-.nav-list-item{
-	width:100% ;
-	margin: 0 0 10px 0;
+.nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
 }
-.social {
-	display: none;
+.main-visual-content {
+    width: 100%;
 }
-.main-visual-content{
-	width:100% ;
+main {
+    width: 100%;
 }
-.blog{
-	float: none;
-	width:100% ;
-	margin: 0;
+.blog {
+    width: 100%;
+    margin: 0;
 }
-.blog-box{
-	padding-left: 2%;
-	padding-right: 2%;
+.blog-box {
+    padding-left: 2%;
+    padding-right: 2%;
 }
-.blog-image{
-	float: none;
-	width:49% ;
-	padding-top: 5px;
+.blog-image {
+    width: 49%;
 }
-.blog-text{
-	float: none;
-	width: 49%;
-	padding-top: 5px;
+.blog-text {
+    width: 49%;
+    padding-top: 5px;
 }
-.sidebar{
-	float: none;
-	width:100% ;
-	padding-left: 3%;
-	padding-right: 3%;
+.sidebar {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
-.instagram-box{
-	float: none;
-	width: 48%;
-	padding-top: 48%;
+.instagram-box {
+    width: 48%;
+    padding-top: 48%;
 }
- .instagram-box:nth-child(odd) {
-	margin-right: 4%;
-  }
+.instagram-box:nth-child(odd) {
+    margin-right: 4%;
+}
+.pagination { 
+   margin-bottom: 50px;
+}} 
+/* スマートフォンサイズ（425px）以下の際に適用される設定 */
+@media screen and (max-width:425px) {  
 .social i {
     color: blue;
+    display: none;
     }
 }
-.pagination{
-	margin-bottom: 50px;
-}}
